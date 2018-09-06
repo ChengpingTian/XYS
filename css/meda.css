@@ -1,0 +1,174 @@
+@media only screen and (max-width:1024px) {
+	 .hidden-1024 {
+		display: none !important;
+	}
+	.top-box-right {
+    width: 95%;
+  
+}
+.swy {
+    font-family: "Roboto Condensed";
+    width: auto;
+    font-size: 14px;
+    }
+.youshi-item {
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.strength-pic-desc h3 {
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    color: #fff;
+    margin-top: 18px;
+    margin-bottom: 9px;
+}
+.strength-pic-desc .text-right {
+    margin-right: 15px;
+    margin-top: 23px;
+    padding-bottom: 0px;
+}
+.product-type-name a img {
+    margin-left: 0px;
+}
+.col-md-9.col-sm-10.col-xs-6.top-bar-right{
+	padding-top: 0;
+}
+	
+.container.top-bar {
+    margin-bottom: 21px;
+}
+
+	.top-bar-left-logo img{
+	height: auto;
+    max-width: 100%;
+	}
+	.row.col-sm-760-flex {
+		display: flex;
+		align-items: center;
+		    padding-top: 22px;
+		
+	}
+	.more-about-us {
+    
+    width: 209px;
+    
+}
+	.service-top-banner{
+		background-position-x: 35%;
+	}
+	.product-list-right {
+    width: 92%;
+    margin-left: 59px;
+    border: 1px solid #e3e3e3;
+    padding: 58px;
+}
+.p-list-title-bar {
+    width: 92%;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 50px;
+    color: #fff;
+    background: #0a9cc6;
+    margin: 0 auto;
+    margin-left: 59px;
+}
+	.navbar-toggle {
+		width: 45px;
+		display: block !important;
+		background: #00a0f0;
+	}
+	.top-bar-right {
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center
+	}
+
+
+
+}
+@media screen and (max-width: 768px) {
+.product-type-box {
+    background: #00a0f0;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.product-type-col-md-12 {
+    margin-top: 28px;
+}
+.mm-nav img{
+	height: auto;
+    width: 50%;
+	}
+.product-list {
+    margin-top: 35px;
+}
+.product-list-right-row {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+
+
+	
+.more-product{
+	text-align: center;
+	margin-top: 0;
+}
+  color: #333;
+}
+
+
+	/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+	.navbar-toggle {
+    width: 45px;
+
+}
+
+
+.row.col-sm-760-flex{
+	
+    padding: 13px;
+}
+/*.top-bar {
+    margin-top: 20px;
+    width: 100%;
+}*/
+
+
+
+
+}
+
+
+@media  screen and (max-device-width: 662px) {
+.product-list-right .col-md-3{
+	width: 33%;
+}
+
+}
+@media  screen and (max-width: 640px) {
+
+
+.product-type-name {
+    
+    font-size: 15px;
+    
+}
+}
+@media  screen and (max-width: 375px) {
+	.col-md-1024{
+		width: 47%;
+	}
+	.section-title-1 {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 24px;
+}
+.swiper-product-change {
+    margin-top: 18px;
+}
+}
