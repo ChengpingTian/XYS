@@ -614,3 +614,26 @@ input:focus { outline: none; }
     
 }
 
+.banner3{
+	padding-bottom: 60px;
+	
+}
+.learn-about-us-more{
+	background: #f5f5f5;
+    padding: 61px 0;
+    margin-top: 6px;
+}
+.shodow{
+
+	    box-shadow: 0px -8px 10px 12px #e3e3e3;
+}
+.learn-way-box-left{
+	background: #ffb11c;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.learn-way-box-left-desc-p{
+	color: #fff;
+}
