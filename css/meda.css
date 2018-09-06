@@ -6,6 +6,12 @@
     width: 95%;
   
 }
+.submit {
+    position: absolute;
+    right: 46%;
+    top: 59px;
+    margin-left: -15px;
+}
 .swy {
     font-family: "Roboto Condensed";
     width: auto;
@@ -46,7 +52,7 @@
 	.row.col-sm-760-flex {
 		display: flex;
 		align-items: center;
-		    padding-top: 22px;
+		padding-top: 22px;
 		
 	}
 	.more-about-us {
@@ -84,9 +90,7 @@
     justify-content: flex-end;
     align-items: center
 	}
-
-
-
+	
 }
 @media screen and (max-width: 768px) {
 .product-type-box {
@@ -97,6 +101,15 @@
 .product-type-col-md-12 {
     margin-top: 28px;
 }
+.col-sm-offset-05 {
+    margin-left: 4.333333%;
+}
+.SWY1{
+	border: none;
+	line-height: 25px;
+	}
+	.message-title{
+		line-height: 25px;
 .mm-nav img{
 	height: auto;
     width: 50%;
@@ -109,25 +122,17 @@
     justify-content: space-between;
     margin-bottom: 0px;
 }
-
-
-
-	
 .more-product{
 	text-align: center;
 	margin-top: 0;
 }
   color: #333;
 }
-
-
-	/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
 	.navbar-toggle {
     width: 45px;
 
 }
-
-
 .row.col-sm-760-flex{
 	
     padding: 13px;
@@ -136,27 +141,26 @@
     margin-top: 20px;
     width: 100%;
 }*/
-
-
-
-
 }
-
-
 @media  screen and (max-device-width: 662px) {
 .product-list-right .col-md-3{
 	width: 33%;
 }
-
+.youshi {
+   
+    background-position-x: -7px;
+}
+.banner3-box {
+    margin-top: 28px;
+}
+#swiper3 {
+    padding-bottom: 45px;
+}
 }
 @media  screen and (max-width: 640px) {
-
-
 .product-type-name {
-    
     font-size: 15px;
-    
-}
+  }
 }
 @media  screen and (max-width: 375px) {
 	.col-md-1024{

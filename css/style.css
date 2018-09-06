@@ -519,6 +519,98 @@ a{
      from { transform: rotateY(0deg);}
     to {transform: rotateY(360deg)}
 }
+input:focus { outline: none; } 
 .liuyan{
 	background: #9f9f9f;
+	padding-top: 53px;
+	padding-bottom: 46px;
 }
+.cp-name{
+	font-size: 17px;
+	font-family: "Roboto Regular";
+	color: #fff;
+	background: #fdb32b;
+	text-align: center;
+	width: 153px;
+	height: 30px;
+	margin: 0 auto;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.SWY1{
+	font-family: "Roboto Black";
+	color: #f4f4f4;
+	font-size: 16px;
+	text-align: center;
+}
+.message-title{
+	font-size: 14PX;
+	font-family: "Roboto Regular";
+	color: #f4f4f4;
+	margin-bottom: 21px;
+	margin-top: 0;
+}
+.message-input{
+	height: 38px;
+	width: 100%;
+	position: relative;
+	background: none;
+	border: none;
+	border: 1px solid #d6d6d6;
+	border-radius: 18px;
+	padding-left: 42px;
+	color: #d6d6d6;
+	margin-bottom: 20px;
+	
+	
+}
+.input-item{
+	position: relative;
+	
+}
+.input-item i{
+	position: absolute;
+    left: 20px;
+    top: 13px;
+    color: #d6d6d6;
+    font-size: 12px;
+}
+ input::-webkit-input-placeholder {
+        color: #d6d6d6;
+}
+.no-p-left{
+	padding-left: 0;
+}
+.submit{
+	position: absolute;
+	right:-41px;
+	top: 3px;
+}
+.banner3-box{
+	margin-top: 63px;
+}
+#swiper3{
+	padding-bottom: 83px;
+}
+.swiper-button-prev.swiper-button-prev3 {
+    left: 44%;
+    top: 97%;
+    width: 13px;
+    height: 18px;
+        left: 44%;
+    top: 99%;
+    width: 21px;
+    height: 19px;
+    background-position: 4px -2px;
+    background-size: 70%;
+}
+.swiper-button-next4.swiper-button-next4 {
+    right: 44%;
+    top: 99%;
+    width: 21px;
+    height: 19px;
+    background-position: 4px -2px;
+    background-size: 70%;
+    
+}
+
