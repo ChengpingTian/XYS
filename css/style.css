@@ -820,3 +820,36 @@ overflow: hidden;
 .other-way .q4{
 	background-position: -120px 0px;
 }
+.about-banner .row{
+	position: relative;
+}
+.banner-desc{
+	text-align: center;
+	font-family: "Arial";
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+.banner-desc h1{
+	font-size: 52px;
+	color: #fff;
+	margin-bottom:30px;
+}
+.banner-desc p{
+	font-size: 22px;
+}
+.brand-nav{
+	background:#00a0f0;
+}
+.brand-left{
+	color: #fff;
+	text-align: left;
+}
+.brand-left a{
+	color: #fff;
+}
+.brand-right{
+	color: #fff;
+}
