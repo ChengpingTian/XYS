@@ -1420,3 +1420,51 @@ h3.other {
 .secd-e a i{
 	margin-right: 5px;
 }
+.app-desc{
+	font-size: 17px;
+	color: #666666;
+	margin-top: 97px;
+	line-height: 30px;
+}
+.app-item{
+	background: #514e55;
+	padding: 60px 0;
+	position: relative;
+	margin-bottom: 40px;
+}
+.app-item-con{
+	font-size: 26px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	text-align: center;
+    font-family: "Arial";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+	
+ }
+ .app-row{
+ 	margin-top: 104px;
+ }
+.boxshadow{
+	box-shadow: 0px 8px 20px 8px rgba(138, 134, 134, 0.16862745098039217);
+}
+.call{
+	text-align: center;
+	margin-top: 58px;
+}
+.call p span:first-child{
+	font-size: 16px;
+font-family: "Roboto Regular";
+color: #262525;
+}
+.call p span:last-child{
+	font-size: 20px;
+	font-family: "Roboto Black";
+	color: #262525;
+	font-weight: bold;
+}

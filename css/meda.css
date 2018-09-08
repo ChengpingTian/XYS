@@ -164,6 +164,9 @@
 .wd{
 	width: 100%;
 }
+.app-item-con {
+    font-size: 18px;
+    }
 .news-info-con {
     font-size: 16px;
     color: #5c5c5c;
@@ -273,6 +276,15 @@
     color: #000000;
     margin-bottom: 30px;
     margin-top: 20px;
+}
+.app-desc {
+    font-size: 17px;
+    color: #666666;
+    margin-top: 38px;
+    line-height: 30px;
+}
+.app-row {
+    margin-top: 42px;
 }
 .Company-Culture-container-fluid{
 	margin-bottom: 20px;
