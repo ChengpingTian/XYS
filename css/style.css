@@ -53,14 +53,7 @@ a{
     margin: 0 -15px;
 }
 
-.navbar-nav li .drop_layout {
-	width: 757px;
-	position: absolute;
-	bottom: -294px;
-	left: 0;
-	background: #00a0f0;
-	z-index: 999999999;
-}
+
 
 .banner-box img {
 	width: 100%;
@@ -186,20 +179,28 @@ a{
 	width: 100%;
 	left: 0;
 }
-
-.drop_layout {
-	bottom: 0;
-	height: 0;
+.navbar-nav li .drop_layout {
+	width: 757px;
+	position: absolute;
+	left: 0;
+	background: #00a0f0;
+	z-index: 999999999;
+	top: 50px;
 	opacity: 0;
 	overflow: hidden;
+	display: none;
+	padding-bottom: 20px;
+	
 }
 
+
+
 .nav_li:hover>.drop_layout {
-	opacity: 1;
-	height: auto;
-	bottom: -256px;
-	transition: all 0.5s ease;
-	-webkit-transition: all 0.5s ease;
+    opacity: 1;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    padding-bottom: 18px;
+    display: block;
 }
 
 .navbar-self {
