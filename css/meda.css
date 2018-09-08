@@ -6,6 +6,36 @@
     width: 95%;
   
 }
+.pro-link {
+    width: 184px;
+    height: 38px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 38px;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 12px;
+    margin-top: 21px;
+    margin-bottom: 45px;
+}
+.product-desc-right-p {
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.product-desc-right-title {
+    font-size: 23px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.p-c {
+    padding-left: 15px;
+}
 .Company-Culture-container-fluid {
     background: url(../images/tgf2.png) no-repeat;
     margin-bottom: 100px;
@@ -131,11 +161,57 @@
     padding-top: 40px;
     padding-bottom: 30px;
 }
+.wd{
+	width: 100%;
+}
+.news-info-con {
+    font-size: 16px;
+    color: #5c5c5c;
+    font-family: "Roboto Light";
+    padding-right: 0;
+    line-height: 34px;
+}
+.atical-bar {
+    width: 100%;
+    height: 1px;
+    background: #e3e3e3;
+    margin-top: 35px;
+}
+.go-top {
+    margin-bottom: 50px;
+}
+.Quality-container {
+    margin-top: 30px;
+}
 .brand-nav {
     height: 61px;
     padding: 15px;
 }
+.large-left h1 {
+    font-size: 20px;
+    color: #00a0f0;
+    line-height: 50px;
+}
+.large-left h1 {
+    font-size: 20px;
+    color: #00a0f0;
+    line-height: 50px;
+}
+.large {
+    margin-top: 10px;
+    margin-bottom: 43px;
+}
+.large-right p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 24px;
+}
 
+
+.info-mb-nav {
+    text-align: left;
+    margin: 15px 0;
+}
 .te-m {
 	text-align: left;
 	}
@@ -226,11 +302,36 @@
 #swiper3 {
     padding-bottom: 45px;
 }
+.large-left h1 {
+    font-size: 20px;
+    color: #00a0f0;
+    line-height: 25px;
+}
+.info-nav-brand{
+	height: auto;
+}
+.info-page-brand ul li {
+	width: 100%;
+    float: left;
+    margin-right: 0px;
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+.h-height{
+	height: 130px;
+}
 }
 @media  screen and (max-width: 640px) {
 .product-type-name {
     font-size: 15px;
   }
+  .row.ly-area {
+    padding:0px;
+}
+.sub-mes {
+   width: 62%;
+}
   .news1-title p {
     font-family: "Roboto Condensed";
     font-size: 16px;
@@ -308,6 +409,22 @@
     color: #fff;
     transform: translate(-50%, -50%);
     width: 100%;
+}
+.banner-desc-info {
+    text-align: center;
+    font-family: "Arial";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.mm-nav img{
+	width: 50%;
+}
+.mm-nav{
+	padding-top: 15px;
 }
 }
 @media  screen and (max-width: 375px) {
