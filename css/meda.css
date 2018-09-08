@@ -6,6 +6,36 @@
     width: 95%;
   
 }
+.Company-Culture-container-fluid {
+    background: url(../images/tgf2.png) no-repeat;
+    margin-bottom: 100px;
+    background-position-x: 35%;
+}
+#video2 {
+    margin-top: 45px;
+}
+.Introduction-title {
+    font-size: 21px;
+    font-family: "Arial";
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+.in-p {
+    font-size: 15px;
+    color: #333;
+    line-height: 24px;
+    font-family: "Arial";
+    margin-bottom: 12px;
+}
+.learn-more-cp {
+    width: 159px;
+    height: 40px;
+    background: #fc8928;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    margin-top: 17px;
+}
 .submit {
     position: absolute;
     right: 46%;
@@ -101,6 +131,18 @@
     padding-top: 40px;
     padding-bottom: 30px;
 }
+.brand-nav {
+    height: 61px;
+    padding: 15px;
+}
+
+.te-m {
+	text-align: left;
+	}
+	.brand-right {
+    color: #fff;
+    font-size: 17px;
+}
 .product-type-col-md-12 {
     margin-top: 28px;
 }
@@ -120,6 +162,7 @@
 .product-list {
     margin-top: 35px;
 }
+
 .product-list-right-row {
     display: block;
     justify-content: space-between;
@@ -148,6 +191,30 @@
 @media  screen and (max-device-width: 662px) {
 .product-list-right .col-md-3{
 	width: 33%;
+}
+.Honor-p {
+    font-size: 38px;
+    color: #000000;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.Company-Culture-container-fluid{
+	margin-bottom: 20px;
+}
+.qwd {
+    font-size: 35px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.more-visit{
+	margin: 40px 0!important;
+}
+.brand-nav {
+    height: 77px;
+    padding: 15px;
+    /* padding-bottom: 1px; */
+    line-height: 27px;
 }
 .youshi {
    
