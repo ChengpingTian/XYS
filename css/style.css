@@ -268,7 +268,8 @@ a{
 	color: #fff;
 }
 .col-md-9.col-sm-10.col-xs-6.top-bar-right {
-    padding-top: 33px;
+   
+        padding-top: 12px;
 }
 .ul{
 	display: none;
@@ -276,7 +277,7 @@ a{
 .product-type-box{
 	background: #00a0f0;
 	padding-top: 63px;
-	padding-bottom: 80px;
+	padding-bottom: 63px;
 }
 .product-type-name{
 	font-family: "Roboto Medium";
@@ -296,7 +297,7 @@ a{
 .product-banner-box{
 	background: #f7f7f7;
 	font-family: "Roboto Medium";
-	padding-bottom: 40px;
+	padding-bottom:50px;
 	
 }
 .section-title-1{
@@ -328,18 +329,23 @@ a{
 	background: #fff;
 	border: 1px solid #e3e3e3;
 	padding-top: 15px;
-	box-shadow: 1px 1px 1px 1px #e3e3e3;
+	box-shadow: 1px 0px 2px 0px #79737333;
+	padding:20px 0;
+	padding-top: 5px;
 }
 .pro-title{
 	font-size: 17px;
-	margin-bottom: 23px;
+	margin-bottom:18px;
 	font-weight: bold;
+	padding: 0 10px;
+	margin-top: 0;
 }
 .pro-desc{
 	font-family: "Roboto Regular";
 	font-size: 12px;
 	color: #666;
 	margin-bottom: 0;
+	padding: 0 10px;
 }
 .scale-box{
 	overflow: hidden;
@@ -362,16 +368,16 @@ a{
 	text-decoration: none;
 }
 .prodcut-list1{
-	margin-bottom: 20px;
+	margin-bottom:48px;
 }
 .swiper-pagination2{
 	margin-top:67px ;
 }
 .swiper-product-change{
-	margin-top: 80px;
+	margin-top: 89px;
 }
 #swiper2{
-	padding-bottom: 78px;
+	padding-bottom:50px;
 }
 .swiper-pagination2 .swiper-pagination-bullet{
 	width: 12px;
@@ -410,7 +416,7 @@ a{
 .strength-pic-desc{
 	    padding-left: 20px;
     padding-right: 8px;
-    padding-bottom: 11px;
+    padding-bottom: 22px;
 }
 .strength-pic-desc h3{
 	font-family: "Roboto Condensed";
@@ -440,7 +446,7 @@ a{
 	padding: 12px;
 	    padding: 12px;
     color: #333;
-    padding-bottom: 20px;
+    padding-bottom: 24px;
 }
 .self-thumbnail{
 	border: none;
@@ -623,6 +629,7 @@ input:focus { outline: none; }
 	background: #f5f5f5;
     padding: 61px 0;
     margin-top: 6px;
+    padding-bottom: 43px;
 }
 .shodow{
 
@@ -771,7 +778,7 @@ overflow: hidden;
 	
 }
 .r2{
-	margin-top: 46px;
+	margin-top: 30px;
 	font-family: "Roboto Regular";
 	font-size: 23px;
 	color: #f86809;
@@ -808,11 +815,12 @@ overflow: hidden;
 	font-size: 18px;
 	color: #fff;
 	font-family: "Roboto Light";
+	MARGIN-BOTTOM: 25px;
 }
 .ft-ul li {
 	font-size: 14px;
 	font-family: "Roboto Light";
-	margin-bottom: 18px;
+	line-height: 28px;
 }
 .ft-ul li a{
 	color: #fff;
@@ -958,6 +966,7 @@ padding: 40px;
 	text-align: center;
 	font-size: 16px;
 	color: #000000;
+	overflow: hidden;
 }
 .more-visit{
 	width: 218px;
@@ -971,28 +980,31 @@ padding: 40px;
  margin-top: 85px;
  margin-bottom: 44px;
 }
+.dected{
+	padding-bottom: 140px;
+}
 .more-visit a{
 	color: #fff;
 }
 .Honor-p{
 font-size: 38px;
   color: #000000;
-  margin-bottom: 30px;
-  margin-top: 138px;
+ margin-bottom: 20px;
+  margin-top: 128px;
 }
 .Real-p{
 	font-size: 18px;
 	color: #666666;
 }
 .bi{
-	margin: 40px 0;
+	margin: 56px 0;
 }
 .yin{
-	margin-top: 10px;
+	margin-top:0px;
 	margin-bottom: 118px;
 }
 .plp{
-	margin-bottom: 44px;
+	margin-bottom: 93px;
 }
 .visit-item{
 	margin-bottom: 20px;
@@ -1018,9 +1030,15 @@ p.tahj{
 .Workshop-row{
 	background: #00a0f0;
 	padding: 10px;
+	padding-right: 0;
+	
 }
 .kopo .col-md-6 {
-    margin-bottom: 30px;
+    margin-bottom:3px;
+    padding: 0;
+}
+.col-md-6.klpi {
+    margin-right: 5px;
 }
 .col-md-6.kopo.klpi {
     padding-top: 20px;
@@ -1457,12 +1475,15 @@ h3.other {
  .app-row{
  	margin-top: 104px;
  }
-.boxshadow{
-	box-shadow: 0px 8px 20px 8px rgba(138, 134, 134, 0.16862745098039217);
+.boxshadow {
+    box-shadow: 20px -9px 19px 11px rgba(138, 134, 134, 0.39);
+}
+.canlist{
+	margin-top: 80px;
 }
 .call{
 	text-align: center;
-	margin-top: 58px;
+	margin-top: 44px;
 }
 .call p span:first-child{
 	font-size: 16px;
@@ -1767,11 +1788,11 @@ overflow: hidden;
 	float: right;
 }
 .hjo{
-	height:526px;
+	height:666px;
 }
 .top-slider{
 	background-repeat: no-repeat;
-    background-size: 50%!important;
+    background-size: 100%!important;
 }
 .gallery-top{
 	border: 1px solid #e3e3e3;
@@ -1795,6 +1816,7 @@ overflow: hidden;
 .rost{
 	font-size: 21px;
 	color: #000000;
+	margin-top: 46px;
 }
 .ctx-body{
 	/*margin-left: 40px;*/
@@ -1848,10 +1870,11 @@ overflow: hidden;
 .ject{
 	    position: relative;
     text-align: right;
-    margin-top: 50px;
+        margin-top: 111px;
 }
 .hjo{
 	    margin-bottom: 87px;
+	    position: relative;
 }
 .pos-a{
 	position: absolute;
@@ -1866,6 +1889,9 @@ overflow: hidden;
 }
 .pos-c {
     left: 152px;
+}
+.col-md-5.col-md-offset-05.ctx-body {
+    padding-left: 65px;
 }
 .pos-d{
 	left: 186px;
@@ -1948,4 +1974,8 @@ overflow: hidden;
 }
 .ma-bo{
 	margin-bottom: 30px;
+}
+@media (min-width: 1200px)
+.container1355 {
+    width: 1355px!important;
 }

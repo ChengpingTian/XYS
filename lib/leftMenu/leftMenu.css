@@ -37,6 +37,12 @@
     padding: 10px 0 10px 20px;
     overflow:hidden;
 }
+.leftMenu .f2 ul li{
+	    
+    padding: 4px 0 8px 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #fff;
+}
    
 .leftMenu ul li.hasChild > a:after {
     content: "+";

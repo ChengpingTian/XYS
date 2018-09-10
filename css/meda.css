@@ -2,6 +2,11 @@
 	 .hidden-1024 {
 		display: none !important;
 	}
+	.large-right p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+}
 	.rog-desc {
     font-size: 13px;
     color: #fff;
@@ -19,6 +24,10 @@
     width: 95%;
   
 }
+.app-item-con {
+
+    font-size: 19px;
+    }
 .cj-title {
     color: #fff;
     font-size: 28px;
@@ -201,7 +210,29 @@
 }
 	
 }
+@media  screen and (max-width: 992px){
+	.klpi{
+		margin-bottom: 20px;
+		padding: 0;
+	}
+}
 @media screen and (max-width: 768px) {
+	.Workshop-row img{
+		margin: 0 auto!important;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.more-visit.more-work-shop {
+    margin: 0 auto !important;
+        margin-top: 70px !important;
+    margin-bottom: 70px !important;
+}
+	.kopo{
+		margin-top: 20px;
+	}
+	.Workshop-row{
+		padding-right: 10px;
+	}
 .product-type-box {
     background: #00a0f0;
     padding-top: 40px;
@@ -217,8 +248,11 @@
 	width: 100%;
 }
 .app-item-con {
-    font-size: 18px;
+    font-size:16px;
     }
+ .info-page-brand ul li{
+ 	margin-right: 0;
+ }
 .news-info-con {
     font-size: 16px;
     color: #5c5c5c;
@@ -232,6 +266,10 @@
     background: #e3e3e3;
     margin-top: 35px;
 }
+.col-sd-67{
+	width: 50%;
+	
+}
 .go-top {
     margin-bottom: 50px;
 }
@@ -239,9 +277,11 @@
     margin-top: 30px;
 }
 .brand-nav {
-    height: 61px;
+    height: auto;
     padding: 15px;
+    overflow: hidden;
 }
+
 .large-left h1 {
     font-size: 20px;
     color: #00a0f0;
@@ -323,6 +363,10 @@
 .product-list-right .col-md-3{
 	width: 33%;
 }
+p.tahn {
+
+    width: 100%;
+    }
 .Honor-p {
     font-size: 38px;
     color: #000000;
@@ -355,7 +399,9 @@
     margin-bottom: 30px;
 }
 .more-visit{
-	margin: 40px 0!important;
+	    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 33px;
 }
 .brand-nav {
     height: 77px;
