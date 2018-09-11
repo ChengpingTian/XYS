@@ -150,10 +150,10 @@ a{
 }
 
 .sec_li {
-	line-height: 50px;
-	height: 50px;
-	color: #000;
-	border-bottom: #fff 1px solid;
+    line-height: 40px;
+    height: 40px;
+    color: #000;
+    border-bottom: hsla(0, 0%, 100%, 0.30980392156862746) 1px solid;
 }
 
 .nav_li {
@@ -272,7 +272,7 @@ a{
         padding-top: 12px;
 }
 .ul{
-	display: none;
+opacity: 0;
 }
 .product-type-box{
 	background: #00a0f0;
@@ -316,7 +316,7 @@ a{
 	
 }
 .section-desc{
-	font-family: "Roboto Light";
+	font-family: "Arial";
 	font-size: 18px;
 	color: #666666;
 	margin-top: 30px;
@@ -331,21 +331,27 @@ a{
 	padding-top: 15px;
 	box-shadow: 1px 0px 2px 0px #79737333;
 	padding:20px 0;
-	padding-top: 5px;
+	padding-top: 0px;
 }
 .pro-title{
 	font-size: 17px;
-	margin-bottom:18px;
-	font-weight: bold;
-	padding: 0 10px;
-	margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: bold;
+    padding: 0 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
 }
 .pro-desc{
-	font-family: "Roboto Regular";
-	font-size: 12px;
-	color: #666;
-	margin-bottom: 0;
-	padding: 0 10px;
+	font-family: "Arial";
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 0;
+    padding: 0 10px;
+    overflow: hidden;
+    height: 36px;
+	
 }
 .scale-box{
 	overflow: hidden;
@@ -419,14 +425,14 @@ a{
     padding-bottom: 22px;
 }
 .strength-pic-desc h3{
-	font-family: "Roboto Condensed";
+	font-family: "Arial";
 	font-size: 27px;
 	color: #fff;
 	margin-top: 54px;
 	margin-bottom: 37px;
 }
 .strength-pic-desc p{
-	font-family: "Roboto Regular";
+	font-family: "Arial";
     font-size: 14px;
     color: #fff;
     line-height: 28px;
@@ -442,11 +448,13 @@ a{
 	transition: all 0.6s;
 }
 .self-thumbnail .self-cation{
-	background: #f7f7f7;
-	padding: 12px;
-	    padding: 12px;
+	    background: #f7f7f7;
+    padding: 12px;
+    padding: 12px;
     color: #333;
-    padding-bottom: 24px;
+    padding-bottom: 48px;
+    padding-left: 25px;
+    padding-right: 25px
 }
 .self-thumbnail{
 	border: none;
@@ -454,15 +462,17 @@ a{
 }
 .self-cation h3{
 	font-size: 22px;
-	font-family: "Roboto Condensed";
+	font-family: "Arial";
 	color: #1c1d22;
 	margin-top: 9px;
 }
 .self-cation p{
-	font-size: 14px;
-	color: #666666;
-	font-family: "Roboto Regular";
-	line-height: 25px;
+	    font-size: 14px;
+    color: #666666;
+    font-family: "Arial";
+    line-height: 25px;
+    overflow: hidden;
+    height: 128px;
 }
 .th-bar{
 	width: 100%;
@@ -505,7 +515,7 @@ a{
 	font-family: "Roboto Medium";
 }
 .swy{
-	font-family: "Roboto Condensed";
+	font-family: "Arial";
 	width: auto;
 	font-size: 17px;
 	border-right: 3px solid #fff;
@@ -534,7 +544,7 @@ input:focus { outline: none; }
 }
 .cp-name{
 	font-size: 17px;
-	font-family: "Roboto Regular";
+	font-family: "Arial";
 	color: #fff;
 	background: #fdb32b;
 	text-align: center;
@@ -545,14 +555,14 @@ input:focus { outline: none; }
 	margin-bottom: 20px;
 }
 .SWY1{
-	font-family: "Roboto Black";
+	font-family: "Arial";
 	color: #f4f4f4;
 	font-size: 16px;
 	text-align: center;
 }
 .message-title{
 	font-size: 14PX;
-	font-family: "Roboto Regular";
+	font-family: "Arial";
 	color: #f4f4f4;
 	margin-bottom: 21px;
 	margin-top: 0;
@@ -651,7 +661,7 @@ input:focus { outline: none; }
 }
 .learn-way-box-left-desc-p{
 	font-size: 14px;
-	font-family: "Roboto Regular";
+	font-family: "Arial";
 	
 }
 .learn-way-box-left-desc {
@@ -682,7 +692,7 @@ input:focus { outline: none; }
 }
 
 .news1-title p{
-	font-family: "Roboto Condensed";
+	font-family: "Arial";
 	font-size:17px;
 	color: #fff;
 	width: 30%;
@@ -702,7 +712,7 @@ input:focus { outline: none; }
 	
 }
 .news2-title .SWY1{
-	font-family: "Roboto Condensed";
+	font-family: "Arial";
     font-size: 25px;
     color: #0a0a0a;
     border: 4px solid #00a0f0;
@@ -714,17 +724,19 @@ input:focus { outline: none; }
     line-height: 27px;
 }
 .news-con-p{
-	font-family: "Roboto Condensed";
+	font-family: "Arial";
 	font-size: 17px;
 	color: #333333;
 	border-left: 2px solid #00a0f0;
 	padding-left: 10px;
 	margin-top: 30px;
 	margin-bottom: 25px;
+	overflow: hidden;
+    height: 29px;
 }
 .news-item-desc{
 	font-size: 13px;
-	font-family: "Roboto Light";
+	font-family: "Arial";
 	color: #333333;
 	height: 63px;
 	line-height: 22px;
@@ -747,7 +759,7 @@ overflow: hidden;
 	display: inline-block;
 }
 .fiyt{
-	font-family: "Roboto Regular";
+	font-family: "Arial";
 	font-size: 13px;
 	color: #333;
 }
@@ -772,27 +784,27 @@ overflow: hidden;
 	margin-top: 54px;
 }
 .r1 {
-	font-family: "Roboto Regular";
-	font-size: 55px;
+	font-family: "Arial";
+	font-size:48px;
 	color: #000000;
 	
 }
 .r2{
 	margin-top: 30px;
-	font-family: "Roboto Regular";
+	font-family: "Arial";
 	font-size: 23px;
 	color: #f86809;
 }
 .sp1{
 	font-size: 32px;
-	font-family: "Roboto Regular";
+	font-family: "Arial";
 	color:#000000 ;
 	margin-right: 20px;
 }
 .tel-number-1{
 	color: #f86809;
 	font-size: 32px;
-	font-family: "Roboto Regular";
+	font-family: "Arial";
 }
 
 .sp2{
@@ -814,12 +826,12 @@ overflow: hidden;
 .ul-title,.ul-title{
 	font-size: 18px;
 	color: #fff;
-	font-family: "Roboto Light";
+	font-family: "Arial";
 	MARGIN-BOTTOM: 25px;
 }
 .ft-ul li {
 	font-size: 14px;
-	font-family: "Roboto Light";
+	font-family: "Arial";
 	line-height: 28px;
 }
 .ft-ul li a{
@@ -844,7 +856,7 @@ overflow: hidden;
 
 .web-bottom{
 	font-size: 14px;
-	font-family: "Roboto Light";
+	font-family: "Arial";
 	padding: 22px 0;
 	padding-bottom: 10px;
 	color: #666;
@@ -1052,6 +1064,7 @@ p.tahj{
 .Company-Culture-container-fluid{
 	background: url(../images/tgf2.png) no-repeat;
    margin-bottom: 100px;
+       margin-top: 120px;
 }
 .qwd{
 	font-size: 35px;
@@ -1249,7 +1262,7 @@ p.tahj{
     height: 6px;
     background: #fff;
     left: -9px;
-    top: 8px;
+    top:9px;
     position: absolute;
 }
 .p-c{
@@ -1306,13 +1319,18 @@ nav {
 	background: #00a0f0;
 }
 .short-news-title{
-	font-size: 22px;
-	color: #000;
+    font-size: 22px;
+    color: #000;
+    overflow: hidden;
+    height: 26px;
+    line-height: 26px;
 }
 .short-news-p{
 	font-size: 14px;
-	color: #666666;
-	line-height: 28px;
+    color: #666666;
+    line-height: 28px;
+    overflow: hidden;
+    height: 88px;
 }
 .link-to-news-info{
 	width: 127px;
@@ -1337,13 +1355,13 @@ nav {
 .news-info-date{
 	font-size: 16px;
     color: #5c5c5c;
-    font-family: "Roboto Light";
+    font-family: "Arial";
     margin-bottom: 30px;
 }
 .news-info-con {
     font-size: 16px;
     color: #5c5c5c;
-    font-family: "Roboto Light";
+    font-family: "Arial";
     padding-right: 85px;
     line-height: 34px;
 }
@@ -1487,12 +1505,12 @@ h3.other {
 }
 .call p span:first-child{
 	font-size: 16px;
-font-family: "Roboto Regular";
+font-family: "Arial";
 color: #262525;
 }
 .call p span:last-child{
 	font-size: 20px;
-	font-family: "Roboto Black";
+	font-family: "Arial";
 	color: #262525;
 	font-weight: bold;
 }
@@ -1577,6 +1595,11 @@ white-space: nowrap;
 	font-size: 18px;
 	color: #000000;
 	margin-bottom:15px;
+	overflow: hidden;
+    height: 21px;
+}
+.row1:hover .sd-sh-title{
+	color:#00A0F0;
 }
 .sd-sh-p{
     font-size: 14px;
@@ -1749,9 +1772,11 @@ white-space: nowrap;
 	
 }
 .plk-h5{
-	font-size: 18px;
-	color: #000000;
-	margin-bottom: 28px;
+	    font-size: 18px;
+    color: #000000;
+    margin-bottom: 28px;
+    overflow: hidden;
+    height: 20px;
 }
 .plk-date{
 	font-size: 15px;
@@ -1974,6 +1999,47 @@ overflow: hidden;
 }
 .ma-bo{
 	margin-bottom: 30px;
+}
+.honor-desco{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #e3e3e3;
+	color: #00A0F0;
+	margin-bottom: 25px;
+}
+/*/这是商品放大镜的样式/*/
+#showbox { background:none;}
+#showbox span { background:url(../images/whitebg.png) repeat;}
+#showsum {
+    left: 34px;
+    margin-top: 34px;
+    width: 88% !important;
+}
+#showsum span { border:1px solid #ddd;}
+#showsum span.sel { border:1px solid #00A0F0;}
+
+.showpage { width:400px; position:relative;}
+.showpage a { display:block;
+ width:22px; 
+height:30px; 
+text-align:center; 
+font-size:18px;
+ position:absolute;
+left:0; 
+  top:-86px; 
+  text-decoration:none; 
+ 
+  z-index: 9999999;
+  background: url(../images/left4.png) no-repeat;
+  }
+.showpage a#shownext { left:auto; right:-261px; background: url(../images/right4.png) no-repeat;}
+/*.showpage a:hover { background:#ccc; color:#777;}*/
+.hjo-wrapp{
+	border: 1px solid #e6e5e4;
+    height: 524px;
+    background: #fcfcfc;
 }
 @media (min-width: 1200px)
 .container1355 {

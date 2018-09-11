@@ -20,6 +20,7 @@
     -o-transition: all 0.4s ease;
     position: fixed;
     overflow: auto;
+    
 }
 
 .leftMenu.menu-open {
@@ -39,9 +40,9 @@
 }
 .leftMenu .f2 ul li{
 	    
-    padding: 4px 0 8px 20px;
+    padding: 4px 0 4px 0px;
     overflow: hidden;
-    border-bottom: 1px solid #fff;
+      border-bottom: 1px solid hsla(0, 0%, 100%, 0.46);
 }
    
 .leftMenu ul li.hasChild > a:after {
@@ -72,6 +73,8 @@
     -moz-transition: height 0.4s ease;
     -webkit-transition: height 0.4s ease;
     -o-transition: height 0.4s ease;
+        padding-right: 20px;
+    text-align: center;
 }
 
 .menu-dark-backdrop {
@@ -87,10 +90,12 @@
     right: 0;
     bottom:0;
     overflow: hidden;
+    
 }
 
     .menu-dark-backdrop.in {
         height: 100%;
         z-index: 90001;
         background: rgba(0,0,0,0.5);
+       
     }

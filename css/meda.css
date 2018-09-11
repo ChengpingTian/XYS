@@ -2,6 +2,17 @@
 	 .hidden-1024 {
 		display: none !important;
 	}
+	.pro-info-banner h1 {
+    color: #333333!important;
+}
+.r1 {
+    font-family: "Arial";
+    font-size: 39px;
+    color: #000000;
+}
+.hjo {
+    height: auto;
+}
 	.large-right p {
     font-size: 16px;
     color: #666666;
@@ -222,6 +233,11 @@
 		margin-bottom: 20px;
 		width: 100%;
 	}
+	.banner-desc h1 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}
 	.more-visit.more-work-shop {
     margin: 0 auto !important;
         margin-top: 70px !important;
@@ -244,6 +260,9 @@
     color: #666666;
     line-height: 32px;
 }
+.txtt-left{
+	text-align: left;
+}
 .wd{
 	width: 100%;
 }
@@ -251,7 +270,7 @@
     font-size:16px;
     }
  .info-page-brand ul li{
- 	margin-right: 0;
+ 	margin-right: 20px;
  }
 .news-info-con {
     font-size: 16px;
